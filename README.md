@@ -55,7 +55,7 @@ Note that this example may create resources which can cost money. Run `terraform
 
 ## Notes
 
-| Name |  |
+| Items |  |
 |------|-------------|
 | vpc ceration  |
 | Public and Private subnets creation underneath the spectic VPC  |
@@ -70,7 +70,10 @@ Note that this example may create resources which can cost money. Run `terraform
 
 ## Addtional Features:
 
-## - ELK can be used to monitor run time application and managed log management 
-## - Cloudwatch can help to monitor application and instances load 
-## - Over AMI we can place WAF security layer to archived next level of security provision 
-## - NAT gateway can be help to communicate private workload with IGW 
+| Items |  |
+|------|-------------|
+| ELK can be used to monitor run time application and managed log management  |
+| Cloudwatch can help to monitor application and instances load  |
+| Over AMI we can place WAF security layer to archived next level of security provision  |
+| NAT gateway can be help to communicate private workload with IGW  |
+
