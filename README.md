@@ -53,5 +53,21 @@ Note that this example may create resources which can cost money. Run `terraform
 | instances\_data.aws_ami.AMI.id | Amazon Image ID |
 
 
+## Notes
 
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+## - vpc ceration 
+## - Public and Private subnets creation underneath the spectic VPC 
+## - SG group has been created with dedicated traffic policy. which detremines traffic inbound and outbound flow 
+## - LB has been initiated with aaplication type to make server accessiblity publicily for end users 
+## - Auto scaling policy has been initiated to provisni compute high availability with the region 
+## - EC2 base volumn has been attched for both instaces and services 
+## - Seconady volume attched with common path 
+## - Tomcat image has been used as web server 
+
+## Addtional Features:
+
+## - ELK can be used to monitor run time application and managed log management 
+## - Cloudwatch can help to monitor application and instances load 
+## - Over AMI we can place WAF security layer to archived next level of security provision 
+## - NAT gateway can be help to communicate private workload with IGW 
